@@ -1,5 +1,4 @@
-![Markdown][image]
-[image]:https://live.staticflickr.com/65535/50593782396_b135b695e4_k.jpg
+![Banner](https://live.staticflickr.com/65535/50593782396_b135b695e4_k.jpg)
 <center>
 <table>
     <tr>
@@ -14,3 +13,4 @@ Hi guys! I'm Cinthia Tengan, a fresh graduated in Geophysics by the University o
 In the world of programmig, I consider myself a little child learning with excitiment and determination about programming,
 even that I've already had some introductory steps in C at USP. Nowadays, I have been granted an opportunity to participate
 in the Generation Brasil Java Developer Bootcamp, so in my repository you will see a lot of what I'm learning and producing in this marvelous bootcamp.
+[URL=https://imgbox.com/3WnziRBf][IMG]https://thumbs2.imgbox.com/2d/df/3WnziRBf_t.png[/IMG][/URL]
