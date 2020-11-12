@@ -5,8 +5,10 @@ Hi guys! If you are looking for some clues, I hope that you can find help on the
 
 ***
 
-![Meme](https://live.staticflickr.com/65535/50593863093_926f04ea67_c.jpg)
+<align center>![Meme](https://live.staticflickr.com/65535/50593863093_926f04ea67_c.jpg)</align center>
 
 ***
+<align center>![Meme](https://live.staticflickr.com/65535/50594799502_f6125f978d_z.jpg)</align center>
 
+***
 
