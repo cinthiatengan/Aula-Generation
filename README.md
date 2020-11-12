@@ -1,4 +1,4 @@
-![Banner](https://live.staticflickr.com/65535/50593782396_b135b695e4_k.jpg)
+![Banner](https://live.staticflickr.com/65535/50593750793_9847a66528_k.jpg)
 <center>
 <table>
     <tr>
@@ -10,6 +10,3 @@
 
 ### **Welcome to my Github Page!**
 Hi guys! If you are looking for some clues, I hope that you can find help on the tasks that I already completed for Generation Brasil.
-
-
-
