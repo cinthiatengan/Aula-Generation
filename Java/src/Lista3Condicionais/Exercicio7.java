@@ -15,7 +15,7 @@ public class Exercicio7 {
 		altura = ler.nextFloat();
 		//condicional
 		if (altura != 0 && base != 0) {
-			area = altura*2*base;
+			area = (altura*2*base)/2;
 			System.out.printf("\nA área do seu triângulo é: %f", area);
 		}
 		else {
