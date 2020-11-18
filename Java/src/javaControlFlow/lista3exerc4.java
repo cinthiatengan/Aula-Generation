@@ -11,18 +11,20 @@ public class lista3exerc4 {
 		//declaração de variaveis
 		Scanner ler = new Scanner(System.in);
 		int lados;
-		double h, rquad=1.732, area;
+		double tamanholado=0, h, rquad=1.732, area;
 		//entrada
 		System.out.printf("Olá usuário, digite o número de lados do seu polígono:");
 		lados = ler.nextInt();
+		System.out.printf("\nDigite o tamanho do lado do seu polígono:");
+		tamanholado = ler.nextInt();
 		//condicionais
 		if (lados == 3) {
-			h = (lados*rquad)/2;
-			area = (2*lados*h)/2;
+			h = (tamanholado*rquad)/2;
+			area = (2*tamanholado*h)/2;
 			System.out.printf("\nÉ um TRIANGULO equilátero de area: %2f", area);
 		}
 		else if (lados == 4) {
-			area = lados*lados;
+			area = tamanholado*tamanholado;
 			System.out.printf("\nÉ um QUADRADO de area: %2f", area);
 		}
 		else if (lados == 5) {
@@ -34,6 +36,5 @@ public class lista3exerc4 {
 		else {
 			System.out.printf("\nPoligono não identificado!");
 		}
-	
-}
+	}
 }
