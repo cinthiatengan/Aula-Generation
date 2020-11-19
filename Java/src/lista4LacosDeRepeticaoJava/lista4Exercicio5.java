@@ -27,5 +27,4 @@ public class lista4Exercicio5 {
 		media = soma/contador;
 		System.out.printf("Média dos números multiplos de 3: %f", media);
 	}
-
 }
