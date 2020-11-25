@@ -7,28 +7,24 @@ import java.util.Scanner;
 		public static void main(String[] args) {
 		
 			//variables
-			int opcao;
+			escolha calculadora = new escolha();
 			double a, b,memoria =0 ;
 			Scanner ler = new Scanner(System.in);
 			
 		do {
 			//outputs
 			System.out.println("Bem vindo a calculadora , escolha uma opção para realizar uma operação: \n");
-			System.out.println("1- Somar dois números \n");
-			System.out.println("2- Subtrair dois números \n");
-			System.out.println("3- Multiplicar dois números  \n");
-			System.out.println("4- Dividir dois números \n");
-			System.out.println("5- Potência de dois números \n");
-			System.out.println("6- Raiz enésima (número e fator) \n"); // raiz quadrada ou enesima
-			System.out.println("7- % de dois números \n");
-			System.out.println("8- Inversão de sinal \n");
-			System.out.println("-99 -> Para sair \n");
-		
-			opcao = ler.nextInt();
-			if(opcao != -99){
+				//print of the choices
+				System.out.println(calculadora.retorno());
+				//read option input
+				calculadora.setOption(ler.nextInt());
+			
+			
+			if(calculadora.getOption() == -99){
 				break;
 			}
-		switch (opcao) {
+			
+		switch (calculadora.getOption()) {
 		
 		case 1: { 
 			//addition
@@ -135,6 +131,6 @@ import java.util.Scanner;
 		} 
 		
 
-		} while (opcao != -99);
+		} while (calculadora.getOption() != -99);
 	}
 }
